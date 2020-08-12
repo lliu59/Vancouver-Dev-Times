@@ -1,0 +1,8 @@
+.background {
+    text-align: center;
+    padding: 5px;
+    max-width: 100%;
+    background: black;
+    height: 120px;
+    position: relative;
+}
