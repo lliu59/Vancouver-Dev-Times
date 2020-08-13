@@ -1,5 +1,5 @@
 # About
-This repo contains a web aggregator applicatiion prepared for UBC Capstone program. The goal of this application is to provide a landing site for local software development professionals to share their original technical material (blogs/forums), affliiated with their organization or not, and to drive traffic to their sites and attention to their products.
+This repo contains a web aggregator applicatiion prepared for the UBC Capstone program. Our team was consisted of five people. The goal of this application is to provide a landing site for local software development professionals to share their organization's technical material (blogs/forums), and to drive traffic to their sites and attention to their products.
 
 # Tech stack 
 - Front-end: React, Redux
