@@ -1,6 +1,8 @@
 # About
 This repo contains a web aggregator applicatiion prepared for the UBC Capstone program. Our team was consisted of five people. The goal of this application is to provide a landing site for local software development professionals to share their organization's technical material (blogs/forums), and to drive traffic to their sites and attention to their products.
 
+*Highlight*: access control, blog stream submission, OAuth authentication, RSS feed subscription, newsletter, scalability
+
 # Tech stack 
 - Front-end: React, Redux
 - Back-end: Node.js, Express
@@ -8,6 +10,7 @@ This repo contains a web aggregator applicatiion prepared for the UBC Capstone p
 - Build: Webpack, Babel
 - Testing: Apache JMeter, Postman
 - Deployment: AWS Elastic Beanstalk
+
 
 
 # Instructions on how to set up the Dev environment for **"Vancouver DEV Times"**
