@@ -1,8 +1,20 @@
+# About
+This repo contains a web aggregator applicatiion prepared for UBC Capstone program. The goal of this application is to provide a landing site for local software development professionals to share their original technical material (blogs/forums), affliiated with their organization or not, and to drive traffic to their sites and attention to their products.
+
+# Tech stack 
+- Front-end: React, Redux
+- Back-end: Node.js, Express
+- DB: Docker, MySQL database hosted on AWS RDS
+- Build: Webpack, Babel
+- Testing: Apache JMeter, Postman
+- Deployment: AWS Elastic Beanstalk
+
+
 # Instructions on how to set up the Dev environment for **"Vancouver DEV Times"**
 
 ![](src/client/assets/screenshot.jpg)
 
-Note: for deployment setup refer to [INSTALL.md](https://gitlab.com/cpsc319-2019w2/galvanize/byteme/CS319/-/blob/master/INSTALL.md)
+Note: please refer to [INSTALL.md](https://gitlab.com/cpsc319-2019w2/galvanize/byteme/CS319/-/blob/master/INSTALL.md) for instructions on deployment. 
 
 # Checkout Git branch
 
