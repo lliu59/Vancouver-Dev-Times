@@ -1,30 +1,23 @@
 # About
-This repo contains a web aggregator applicatiion prepared for the UBC Capstone program. Our team was consisted of five people. The goal of this application is to provide a landing site for local software development professionals to share their organization's technical material (blogs/forums), and to drive traffic to their sites and attention to their products.
+This repo is a fork of a web aggregator prepared for the UBC Capstone program under the sponsorship of Galvanize. Our team consisted of 5 developers. The goal of this application is to provide a landing site for local software development professionals to share their organization's technical material such as blogs, tips, etc., and to drive traffic to their sites and attention to their products.
 
-*Highlight*: access control, blog stream submission, OAuth authentication, RSS feed subscription, newsletter, scalability
+# Highlights
+Access control, blog stream submission, OAuth authentication, RSS feed subscription, email newsletters, scalability
 
 # Tech stack 
 - Front-end: React, Redux
 - Back-end: Node.js, Express
-- DB: Docker, MySQL database hosted on AWS RDS
+- Database: Docker, MySQL database hosted on AWS RDS
 - Build: Webpack, Babel
 - Testing: Apache JMeter, Postman
 - Deployment: AWS Elastic Beanstalk
 
-
-
-# Instructions on how to set up the Dev environment for **"Vancouver DEV Times"**
+# Instructions on development environment setup
 
 ![](src/client/assets/screenshot.jpg)
 
 Note: please refer to [INSTALL.md](https://gitlab.com/cpsc319-2019w2/galvanize/byteme/CS319/-/blob/master/INSTALL.md) for instructions on deployment. 
 
-# Checkout Git branch
-
-```bash
-# Clone the repository
-git clone https://gitlab.com/cpsc319-2019w2/galvanize/byteme/CS319.git
-```
 
 # MySQL Database with Docker
 
@@ -41,7 +34,6 @@ docker-compose up
 This pulls a MySQL image from docker hub and runs it in a container. If you run `docker ps`, you will see the docker container that was created.
 Let the database run in the background for the app to run properly.
 
-<br/><br/>
 ### Side note:
 
 **IMPORTANT:** Note that the changes you make to the database inside the container will persist even after you stop and re-start the container because the volume stores all the data.
